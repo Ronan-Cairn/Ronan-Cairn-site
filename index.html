@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ronan Cairn — DÉSHÉRENCE</title>
+  <meta name="description" content="Ronan Cairn. Écrivain. Héritages vacants. Fantômes politiques. Démocraties fatiguées. DÉSHÉRENCE — roman.">
+  <meta name="robots" content="index,follow">
+  <meta property="og:title" content="Ronan Cairn — DÉSHÉRENCE">
+  <meta property="og:description" content="Écrivain. Héritages vacants. Fantômes politiques. Démocraties fatiguées.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ronancairn.fr/">
+  <meta name="theme-color" content="#0b0b0b">
+  <style>
+    :root {
+      --bg: #0b0b0b;
+      --fg: #f2efe8;
+      --muted: #aaa49a;
+      --line: rgba(242, 239, 232, 0.18);
+      --accent: #d6c6a8;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      min-height: 100%;
+      margin: 0;
+    }
+
+    body {
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 2rem;
+      background:
+        radial-gradient(circle at 50% 15%, rgba(214, 198, 168, 0.09), transparent 28rem),
+        linear-gradient(180deg, #101010 0%, var(--bg) 70%);
+      color: var(--fg);
+      font-family: Georgia, "Times New Roman", serif;
+      letter-spacing: 0.01em;
+    }
+
+    main {
+      width: min(100%, 42rem);
+      padding: clamp(2rem, 7vw, 4rem);
+      border: 1px solid var(--line);
+      background: rgba(11, 11, 11, 0.72);
+      box-shadow: 0 2rem 7rem rgba(0, 0, 0, 0.42);
+    }
+
+    .monogram {
+      width: 4.6rem;
+      height: 4.6rem;
+      display: grid;
+      place-items: center;
+      margin-bottom: 2.6rem;
+      border: 1px solid var(--line);
+      color: var(--accent);
+      font-size: 1.25rem;
+      letter-spacing: 0.18em;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(2.8rem, 9vw, 5.6rem);
+      line-height: 0.92;
+      font-weight: 400;
+      letter-spacing: -0.055em;
+    }
+
+    .role {
+      margin-top: 1.2rem;
+      color: var(--muted);
+      font-size: clamp(1rem, 2vw, 1.15rem);
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+    }
+
+    .line {
+      width: 100%;
+      height: 1px;
+      margin: 2.7rem 0;
+      background: var(--line);
+    }
+
+    p {
+      margin: 0;
+      font-size: clamp(1.16rem, 2.4vw, 1.55rem);
+      line-height: 1.65;
+      font-weight: 400;
+    }
+
+    .book {
+      margin-top: 2.2rem;
+      color: var(--accent);
+      font-size: clamp(1.3rem, 3vw, 1.85rem);
+      line-height: 1.4;
+      letter-spacing: 0.04em;
+    }
+
+    .status {
+      margin-top: 0.35rem;
+      color: var(--muted);
+      font-size: 0.98rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+
+    footer {
+      margin-top: 3.2rem;
+      color: var(--muted);
+      font-size: 0.95rem;
+      line-height: 1.8;
+    }
+
+    a {
+      color: var(--fg);
+      text-decoration: none;
+      border-bottom: 1px solid rgba(242, 239, 232, 0.32);
+    }
+
+    a:hover,
+    a:focus {
+      color: var(--accent);
+      border-bottom-color: var(--accent);
+    }
+
+    @media (max-width: 42rem) {
+      body {
+        padding: 1rem;
+      }
+
+      main {
+        padding: 2rem 1.4rem;
+      }
+
+      .monogram {
+        margin-bottom: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main aria-label="Page d'attente de Ronan Cairn">
+    <div class="monogram" aria-hidden="true">RC</div>
+
+    <h1>Ronan<br>Cairn</h1>
+    <div class="role">Écrivain</div>
+
+    <div class="line" aria-hidden="true"></div>
+
+    <p>
+      Héritages vacants.<br>
+      Fantômes politiques.<br>
+      Démocraties fatiguées.
+    </p>
+
+    <div class="book">DÉSHÉRENCE</div>
+    <div class="status">Roman</div>
+
+    <footer>
+      Contact&nbsp;:
+      <a href="mailto:ronan.cairn@gmail.com">ronan.cairn@gmail.com</a>
+    </footer>
+  </main>
+</body>
+</html>
