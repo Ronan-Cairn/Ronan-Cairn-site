@@ -366,6 +366,23 @@
       line-height: 1;
     }
 
+    .author-photo {
+      width: min(100%, 25rem);
+      aspect-ratio: 4 / 3;
+      margin: 2rem 0 0;
+      overflow: hidden;
+      background: var(--paper-deep);
+    }
+
+    .author-photo img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center 42%;
+      filter: saturate(0.78);
+    }
+
     .author-bio {
       max-width: 43rem;
       padding-top: 1rem;
@@ -656,6 +673,9 @@
       <div>
         <p class="eyebrow">Ronan Cairn</p>
         <h2 id="titre-auteur">L’auteur</h2>
+        <figure class="author-photo">
+          <img src="assets/portrait-auteur.jpg" alt="Ronan Cairn de profil, sans lunettes, devant un vaste paysage." width="640" height="480" loading="lazy">
+        </figure>
       </div>
       <div class="author-bio">
         <p>J’ai longtemps travaillé à faire tenir des bâtiments debout.<br>J’écris désormais sur ce qui, chez les êtres humains, s’obstine à pencher.<br>Dans mon premier roman, Déshérence, l’intime se retrouve aux prises avec l’Histoire, généralement au mauvais moment.</p>
