@@ -711,7 +711,11 @@
         transition-duration: 0.01ms !important;
       }
     }
-  </style>
+  
+.reading-section{padding:6rem max(1.5rem,calc((100vw - 78rem)/2));background:var(--paper)}
+.reading-heading{margin-bottom:3rem}.reading-heading h2{font-size:clamp(2.7rem,5vw,4.8rem);font-weight:400;letter-spacing:-.055em;margin-bottom:1rem}.reading-heading>p:last-child{color:var(--muted);font-size:1.1rem;line-height:1.7}
+.reading-grid{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,.7fr);gap:4rem;align-items:center}.poem-card{padding:3rem 2rem;background:var(--white);border-top:3px solid var(--accent)}.poem-card h3{font-weight:400;font-size:2.5rem;color:var(--accent);text-align:center;margin:0 0 2rem}.poem-text{width:fit-content;max-width:100%;margin:auto;font-size:clamp(.92rem,1.3vw,1.1rem);line-height:1.7}.poem-text p{margin-bottom:1.3rem}.poem-signature{text-align:right;font-style:italic}.reading-aside h3{font-size:2.5rem;font-weight:400;letter-spacing:-.04em;margin:0 0 1.5rem}.reading-aside p{font-size:1.1rem;line-height:1.8;color:var(--muted)}.reading-aside blockquote{margin:2rem 0;padding-left:1.5rem;border-left:1px solid var(--accent);color:var(--accent);font-size:1.4rem;line-height:1.6}.reading-button{display:inline-block;padding:1rem 1.3rem;background:var(--accent);color:var(--white);font:700 .75rem Arial,sans-serif;text-transform:uppercase;letter-spacing:.07em;text-decoration:none}.reading-caption{font: .75rem/1.6 Arial,sans-serif!important;margin-top:1rem}.site-nav{flex-wrap:wrap}@media(max-width:840px){.reading-grid{grid-template-columns:1fr;gap:3rem}.poem-card{padding:2rem 1rem}.site-header{gap:1rem;flex-wrap:wrap;padding-block:1rem}.reading-section{padding-block:4rem}}
+</style>
 </head>
 <body>
   <a class="skip-link" href="#contenu">Aller au contenu</a>
@@ -723,6 +727,7 @@
     </a>
     <nav class="site-nav" aria-label="Navigation principale">
       <a href="#roman">Le roman</a>
+      <a href="#extraits">Extraits</a>
       <a href="#formats">Commander</a>
       <a href="#auteur">L’auteur</a>
       <a href="#contact">Contact</a>
@@ -790,6 +795,7 @@
       </div>
     </section>
 
+<section class="reading-section" id="extraits" aria-labelledby="titre-extraits"><div class="reading-heading"><p class="eyebrow">Entrer dans le livre</p><h2 id="titre-extraits">Les premières pages</h2><p>Le roman s’ouvre sur un poème.</p></div><div class="reading-grid"><article class="poem-card"><p class="eyebrow">Incipit poétique</p><h3>ReLOVution</h3><div class="poem-text"><p>On a bâti l’amour comme on plaide une cause,<br>À grands coups d’utopie, de fous rires et de foi,<br>Ignorant qu’à trop croire, le cœur se décompose,<br>Et qu’un peuple, même à deux, c’est déjà trop de voix.</p><p>Tu parlais d’avenir comme on scande un discours,<br>L’œil miroitant d’espoir, le poing sur la poitrine.<br>Moi, j’entendais déjà, dans le ventre des jours,<br>Tes revendications pour un nouveau régime.</p><p>Il y eut des drapeaux, des promesses enflammées,<br>Des souffles confondus dans la même cohue,<br>Des mains lâchées trop tôt, des regards égarés.<br>Nos illusions cédaient sous la clameur des rues.</p><p>Puis vint le soulèvement des choses en silence :<br>Les baisers retranchés, les gestes en grève lente.<br>Le lit devint frontière, nos mains des résistances,<br>Chaque nuit votait l’abstinence triomphante.</p><p>On ne s’est pas quittés, non, c’est plus insidieux.<br>On a capitulé, sans colère et sans cri.<br>Le pouvoir de s’aimer s’effaçait sans adieu,<br>Vieille devise usée au fronton des mairies.</p><p class="poem-signature">Z.P</p></div></article><aside class="reading-aside"><p class="eyebrow">Puis vient le récit</p><h3>Sur la passerelle</h3><p>Une ville sous la pluie. Zach au bord du vide. Arthur qui arrive, et le monde qui reprend son vacarme.</p><blockquote>« Depuis la veille, c’était ma technique préférée : me taire très fort. »</blockquote><a class="reading-button" href="extrait.html">Lire les premières pages</a><p class="reading-caption">Lecture libre · ReLOVution et l’ouverture du chapitre Arthur</p></aside></div></section>
     <section class="format-section" id="formats" aria-labelledby="titre-formats">
       <div class="format-inner">
         <div class="format-heading">
@@ -853,3 +859,4 @@
   </footer>
 </body>
 </html>
+
