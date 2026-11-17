@@ -447,6 +447,11 @@
       background: #7f382d;
     }
 
+    .amazon-link.is-unavailable {
+      background: #706b64;
+      cursor: not-allowed;
+    }
+
     .amazon-note {
       margin: 1.2rem 0 0;
       color: var(--muted);
@@ -801,7 +806,7 @@
             <h3>eBook Kindle</h3>
             <p class="format-date">Précommande sur Amazon</p>
             <p class="format-price">5&nbsp;€</p>
-            <a class="amazon-link" href="https://www.amazon.fr/s?k=Ronan+Cairn+D%C3%89SH%C3%89RENCE&i=digital-text" target="_blank" rel="noopener noreferrer">Voir l’eBook sur Amazon <span aria-hidden="true">↗</span></a>
+            <span class="amazon-link is-unavailable" aria-disabled="true">Précommande bientôt disponible</span>
           </article>
 
           <article class="format-card">
@@ -809,10 +814,10 @@
             <h3>Broché</h3>
             <p class="format-date">Publication le 10 décembre 2026</p>
             <p class="format-price">20&nbsp;€</p>
-            <a class="amazon-link" href="https://www.amazon.fr/s?k=Ronan+Cairn+D%C3%89SH%C3%89RENCE&i=stripbooks" target="_blank" rel="noopener noreferrer">Voir le broché sur Amazon <span aria-hidden="true">↗</span></a>
+            <span class="amazon-link is-unavailable" aria-disabled="true">Disponible à la parution</span>
           </article>
         </div>
-        <p class="amazon-note">Les précommandes Kindle ouvriront dès que la fiche Amazon sera accessible. La disponibilité du broché suivra à sa parution.</p>
+        <p class="amazon-note">Les liens Amazon seront activés dès que les fiches produit seront accessibles.</p>
       </div>
     </section>
 
